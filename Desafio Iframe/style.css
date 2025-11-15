@@ -1,0 +1,9 @@
+ @charset "UTF-8";
+
+ body{
+    background-image: url(iphone.png);
+    display: inline-block;
+    margin: auto;
+    background-position: center center;
+ 
+ }
