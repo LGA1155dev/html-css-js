@@ -1,0 +1,1 @@
+ Suas informações e credenciais foram enviados.
