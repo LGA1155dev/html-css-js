@@ -1,0 +1,14 @@
+ @charset "UTF-8";
+
+ @media screen and (min-width: 600px) and (max-width: 1023px) {
+    div.fundo{
+        width: 400px;
+        transition: width 1s, height 1s;
+    }
+
+    header > a{
+        position: relative;
+        top: 2px;
+        left: 70vh;
+    }
+ }

@@ -1,45 +1,54 @@
  @charset "UTF-8";
 
 
- *{
-    padding: 0px;
-    margin: 0px;
- }
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Russo+One&family=Share+Tech+Mono&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-.share-tech-mono-regular {
-  font-family: "Share Tech Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
+*{
+   padding: 0px 0px 20px 0px;
+   margin: 0px 0px 20px;
+}
+
+header{
+   background-color: rgba(27, 125, 238, 0.493);
+   padding: 2px;
+}
+
+header > a{
+   position: relative;
+   top: 4px;
+   left: 8vh;
+   display: inline-block;
+   border-radius: 5px;
+   padding: 5px;
+   color: white;
+   text-decoration: none;
+   background-color: rgba(59, 117, 240, 0.678);
+}
+
+header > a:hover{
+   transition: width 3s, height 3s;
+   background-image: linear-gradient(to left, rgba(59, 117, 240, 0.678), rgba(15, 66, 177, 0.815), rgba(8, 51, 145, 0.747));
 }
 
 body{
-     font-family: 'Share Tech Mono', monospace;
-     background-image: url(../image/front1.jpg);
-     background-attachment: fixed;
-     background-size: cover;
+   background-color: lightblue;
+   font-family: 'Source Code Pro';
+    background-image: url(../image/front1.jpg); 
+    background-attachment: fixed;
+    background-size:  cover;
+    background-repeat: no-repeat;
+
 }
 
- h1{    
-    color: rgba(255, 255, 255, 0.432);
-    text-align: center;
-    padding: 25px;
- }
-
- header{
-    background-color: rgba(95, 98, 100, 0.774);
-    padding: 35px;
- }
-
- a{
-    color: white;
-    text-decoration: none;
-    background-color: lightslategray;
-    padding: 4px;
-    border-radius: 5px;
- }
-
- a:hover{
-    background-color: rgba(74, 74, 75, 0.644);
- }
+div.fundo{
+   background-color: rgba(55, 55, 56, 0.774);
+   color: rgba(255, 255, 255, 0.884);
+   width: 300px;
+   display: block;
+   margin: auto;
+   height: 120vh;
+   padding: 30px 30px 0px 30px;
+   transition: width 3s, height 3s;
+}
 
  
