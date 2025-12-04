@@ -22,12 +22,13 @@ header > a{
    padding: 5px;
    color: white;
    text-decoration: none;
-   background-color: rgba(59, 117, 240, 0.678);
+
 }
 
-header > a:hover{
-   transition: width 3s, height 3s;
-   background-image: linear-gradient(to left, rgba(59, 117, 240, 0.678), rgba(15, 66, 177, 0.815), rgba(8, 51, 145, 0.747));
+  header > a:hover{
+   ba
+   color: black;
+   transition: background-color 1s;
 }
 
 body{
@@ -44,11 +45,20 @@ div.fundo{
    background-color: rgba(55, 55, 56, 0.774);
    color: rgba(255, 255, 255, 0.884);
    width: 300px;
+   text-align: center;
    display: block;
    margin: auto;
-   height: 120vh;
-   padding: 30px 30px 0px 30px;
+   height: 150vh;
+   padding: 30px 30px 30px 30px;
    transition: width 3s, height 3s;
 }
 
- 
+ footer{
+   position: relative;
+   top: 100px;
+   left: 0px;
+   background-color: black;
+   text-align: center;
+   color: white;
+   padding: 30px;
+ }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="etilos/style-login.css">
+    <style>
+        *{
+
+        }
+
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: lightskyblue;
+        }
+
+        main{
+            display: flex;
+        }
+
+        section#login{
+            display: block;
+            text-align: center;
+            width: 50px;
+            height: 300px;
+            flex: auto;
+            background-color: white;
+        }
+
+        #email, #senha{
+            text-align: center;
+            position: relative;
+            top: 110px;
+            left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <main id="conteiner">
+        <section id="login">
+                <div id="email">
+                    <form action="login.php" method="post">
+                        <label for="iemail">Digite seu email</label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" minlength="3" maxlength="30" placeholder="Digite seu e-mail" required>
+                    </div>
+                        <div id="senha">
+                            <label for="isenha">Digite sua senha</label>
+                            <input type="password" name="senha" id="isenha" min="6" max="30" autocomplete="current-password" placeholder="Digite sua senha" required>
+                        </div>
+                        <div id="imagem"></div>
+                </form>
+        </section>
+    </main>
+</body>
+</html>
